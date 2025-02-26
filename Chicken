@@ -1,4 +1,4 @@
--- Da Arena Script 2 
+-- Chicken Ware
 
 local plrName = game.Players.LocalPlayer.Name;
 
@@ -18,7 +18,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "You are whitelisted, Script is loading..";
     Duration = 3;
 })
-wait(2)
+wait(1)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Loaded !";
     Text = "The script have been loaded ! Made By Chicken !";
@@ -194,7 +194,7 @@ AddLabel("Made for Da Arena By Chicken.")
 else 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Not Whitelisted !";
-    Text = "You are not whitelisted.";
+    Text = "You are not whitelisted. More infortmations in Console.";
     Duration = 5;
 })
 warn("You are not whitelisted! if you want to be whitelisted, ask the Owner Chicken !")
