@@ -4,7 +4,7 @@ local plrName = game.Players.LocalPlayer.Name;
 
 local plrWhitelisted = false;
 
-local whitelisted = {"iloveeveryone_12", "ggkevinthe1st", "username3", "username4"};
+local whitelisted = {"iloveeveryone_120", "ggkevinthe1st", "username3", "username4"};
 for _, InWhitelistTable in ipairs(whitelisted) do
 if plrName == InWhitelistTable then
 plrWhitelisted = true; 
