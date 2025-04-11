@@ -1,8 +1,8 @@
 -- ChickenWare source
 
-local plrName = game.Players.LocalPlayer.Name;
+local plrName = game.Players.LocalPlayer.Name
 
-local plrWhitelisted = false;
+local plrWhitelisted = false
 
 local whitelisted = {"iloveeveryone_120", "ggkevinthe1st", "username3", "username4"};
 for _, InWhitelistTable in ipairs(whitelisted) do
