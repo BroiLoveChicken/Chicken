@@ -1,10 +1,10 @@
--- Chicken Ware
+-- ChickenWare source
 
 local plrName = game.Players.LocalPlayer.Name;
 
 local plrWhitelisted = false;
 
-local whitelisted = {"iloveeveryone_120", "AsianRiceFarmerKevin", "username3", "username4"};
+local whitelisted = {"iloveeveryone_120", "ggkevinthe1st", "username3", "username4"};
 for _, InWhitelistTable in ipairs(whitelisted) do
 if plrName == InWhitelistTable then
 plrWhitelisted = true; 
@@ -18,7 +18,7 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
     Text = "You are whitelisted, Script is loading..";
     Duration = 3;
 })
-wait(1)
+wait(2)
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Loaded !";
     Text = "The script have been loaded ! Made By Chicken !";
@@ -194,7 +194,7 @@ AddLabel("Made for Da Arena By Chicken.")
 else 
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "Not Whitelisted !";
-    Text = "You are not whitelisted. More infortmations in Console.";
+    Text = "You are not whitelisted.";
     Duration = 5;
 })
 warn("You are not whitelisted! if you want to be whitelisted, ask the Owner Chicken !")
